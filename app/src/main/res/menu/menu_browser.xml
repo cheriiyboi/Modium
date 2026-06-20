@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_new_tab" android:title="@string/new_tab" />
+    <item android:id="@+id/menu_new_private_tab" android:title="@string/new_private_tab" />
+    <item android:id="@+id/menu_bookmarks" android:title="@string/action_bookmarks" />
+    <item android:id="@+id/menu_history" android:title="@string/action_history" />
+    <item android:id="@+id/menu_downloads" android:title="@string/action_downloads" />
+    <item android:id="@+id/menu_find_in_page" android:title="@string/action_find_in_page" />
+    <item android:id="@+id/menu_desktop_site" android:title="@string/action_desktop_site" android:checkable="true" />
+    <item android:id="@+id/menu_share" android:title="@string/action_share" />
+    <item android:id="@+id/menu_settings" android:title="@string/settings_title" />
+</menu>

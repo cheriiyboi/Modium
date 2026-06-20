@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardBackgroundColor="@color/modium_surface"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="4dp">
+
+            <ImageView
+                android:id="@+id/tabPrivateIcon"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/ic_private"
+                android:visibility="gone"
+                app:tint="@color/modium_private" />
+
+            <TextView
+                android:id="@+id/tabTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="New tab"
+                android:textColor="@color/modium_text_primary"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btnCloseTab"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ripple_circle"
+                android:contentDescription="@string/close_tab"
+                android:padding="7dp"
+                android:src="@drawable/ic_close"
+                app:tint="@color/modium_text_secondary" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tabUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="12dp"
+            android:text="modium://newtab"
+            android:textColor="@color/modium_text_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
