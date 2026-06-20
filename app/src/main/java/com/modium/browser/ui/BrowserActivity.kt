@@ -401,14 +401,14 @@ class BrowserActivity : AppCompatActivity() {
         dialog.setContentView(R.layout.dialog_shields)
 
         val tab = currentTab()
-        val blockedCountText = dialog.findViewById<android.widget.TextView>(R.id.textBlockedCount)
+        val blockedCountText = dialog.findViewById<android.widget.TextView>(R.id.textBlockedCount)!!
         blockedCountText.text = getString(R.string.shields_status_up, tab?.blockedCount ?: 0)
 
-        val switchGlobal = dialog.findViewById<SwitchMaterial>(R.id.switchShieldsGlobal)
-        val switchAds = dialog.findViewById<SwitchMaterial>(R.id.switchAdsTrackers)
-        val switchHttps = dialog.findViewById<SwitchMaterial>(R.id.switchHttpsUpgrade)
-        val switchPopups = dialog.findViewById<SwitchMaterial>(R.id.switchPopups)
-        val switchFingerprint = dialog.findViewById<SwitchMaterial>(R.id.switchFingerprint)
+        val switchGlobal = dialog.findViewById<SwitchMaterial>(R.id.switchShieldsGlobal)!!
+        val switchAds = dialog.findViewById<SwitchMaterial>(R.id.switchAdsTrackers)!!
+        val switchHttps = dialog.findViewById<SwitchMaterial>(R.id.switchHttpsUpgrade)!!
+        val switchPopups = dialog.findViewById<SwitchMaterial>(R.id.switchPopups)!!
+        val switchFingerprint = dialog.findViewById<SwitchMaterial>(R.id.switchFingerprint)!!
 
         switchGlobal.isChecked = Settings.shieldsGloballyEnabled(this)
         switchAds.isChecked = Settings.blockAds(this)
