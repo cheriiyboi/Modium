@@ -1,0 +1,25 @@
+{
+  "appId": "com.nallia.reverie",
+  "appName": "Reverie",
+  "webDir": "www",
+  "backgroundColor": "#09090b",
+  "android": {
+    "backgroundColor": "#09090b",
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "backgroundColor": "#09090b",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#09090b",
+      "overlaysWebView": false
+    }
+  }
+}
