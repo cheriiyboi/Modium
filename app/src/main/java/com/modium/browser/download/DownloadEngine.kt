@@ -43,8 +43,8 @@ object DownloadEngine {
     private fun module(): PyObject = Python.getInstance().getModule("downloader")
 
     private fun PyObject?.asStr(): String = this?.toString() ?: ""
-    private fun PyObject?.asLong(): Long = this?.toJava(java.lang.Long::class.java) ?: 0L
-    private fun PyObject?.asBool(): Boolean = this?.toJava(java.lang.Boolean::class.java) ?: false
+    private fun PyObject?.asLong(): Long = this?.toJava(java.lang.Long::class.java)?.toLong() ?: 0L
+    private fun PyObject?.asBool(): Boolean = this?.toJava(java.lang.Boolean::class.java)?.booleanValue() ?: false
 
     /** Blocking. Resolves a page URL (YouTube, Twitter/X, TikTok, Instagram, etc.) into formats. */
     fun fetchInfo(url: String): DownloadInfo {
