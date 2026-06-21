@@ -1,0 +1,39 @@
+<resources>
+    <color name="modium_bg">#1A1A1F</color>
+    <color name="modium_surface">#23232B</color>
+    <color name="modium_surface_alt">#2C2C36</color>
+    <color name="modium_accent">#FF7A33</color>
+    <color name="modium_accent_dark">#E8631F</color>
+    <color name="modium_text_primary">#F2F2F5</color>
+    <color name="modium_text_secondary">#9A9AA5</color>
+    <color name="modium_outline">#3A3A45</color>
+    <color name="modium_private">#7B5CFF</color>
+    <color name="modium_shield_green">#3DD68C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Material 3 semantic mapping -->
+    <color name="m3_primary">#FF7A33</color>
+    <color name="m3_on_primary">#1A1A1F</color>
+    <color name="m3_primary_container">#4A2A14</color>
+    <color name="m3_on_primary_container">#FFB27A</color>
+    <color name="m3_secondary">#7B5CFF</color>
+    <color name="m3_on_secondary">#FFFFFF</color>
+    <color name="m3_secondary_container">#2C2440</color>
+    <color name="m3_on_secondary_container">#C9BBFF</color>
+    <color name="m3_tertiary">#3DD68C</color>
+    <color name="m3_on_tertiary">#0B1F14</color>
+    <color name="m3_background">#1A1A1F</color>
+    <color name="m3_on_background">#F2F2F5</color>
+    <color name="m3_surface">#1A1A1F</color>
+    <color name="m3_on_surface">#F2F2F5</color>
+    <color name="m3_surface_variant">#2C2C36</color>
+    <color name="m3_on_surface_variant">#9A9AA5</color>
+    <color name="m3_surface_container">#23232B</color>
+    <color name="m3_surface_container_high">#2C2C36</color>
+    <color name="m3_outline">#3A3A45</color>
+    <color name="m3_outline_variant">#2A2A33</color>
+    <color name="m3_error">#FF6B6B</color>
+    <color name="m3_on_error">#1A1A1F</color>
+</resources>
+

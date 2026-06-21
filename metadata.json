@@ -1,0 +1,6 @@
+{
+  "name": "Simple Notepad",
+  "description": "A beautifully styled, simple notepad app built with Jetpack Compose and Material 3. Features local persistence using SQLite/Room, search filtering, pinning, color accents, and responsive layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
